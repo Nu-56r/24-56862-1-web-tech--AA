@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Central Community Library</title>
+    <link rel="icon" href="for html.PNG">
+</head>
+<body>
+
+    <h1>Central Community Library</h1>
+
+    <p>Welcome to our online library service.</p>
+
+    <p><b>Please provide your information correctly.</b></p>
+
+    <p><i>Membership registration is currently open.</i></p>
+
+    <div>This section represents a block element.</div>
+
+    <span>This text represents an inline element.</span>
+
+    <p>
+        <a href="https://publiclibrary.gov.bd/" target="_blank">
+            Visit Library Website
+        </a>
+    </p>
+
+    <br>
+
+    <img src="download.jpg" alt="Library Building" width="400">
+
+    <h2>Member Directory</h2>
+
+    <table border="2">
+        <tr>
+            <th>Member ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Image</th>
+        </tr>
+
+        <tr>
+            <td>56862</td>
+            <td>kaif</td>
+            <td>kaif@gmail.com</td>
+            <td>
+                <img src="IMG-20250123-WA0005.jpg" width="50" alt="Kaif">
+            </td>
+        </tr>
+    </table>
+
+    <h2>Become a Library Member</h2>
+
+    <form action="" method="GET">
+
+        <label>Enter Your Name:</label><br>
+        <input type="text" name="name" required>
+        <br><br>
+
+        <label>Enter Your Email:</label><br>
+        <input type="email" name="email" required>
+        <br><br>
+
+        <label>Set a Password:</label><br>
+        <input type="password" name="password" required>
+        <br><br>
+
+        <label>Enter Your Age:</label><br>
+        <input type="number" name="age">
+        <br><br>
+
+        <label>Select Your Birth Date:</label><br>
+        <input type="date" name="dob">
+        <br><br>
+
+        <label>Select Gender:</label><br>
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+        <br><br>
+
+        <label>Select Membership Type:</label><br>
+        <select name="membership" required>
+            <option value="">Select</option>
+            <option value="Student">Student</option>
+            <option value="Basic">Basic</option>
+            <option value="Premium">Premium</option>
+        </select>
+        <br><br>
+
+        <label>Choose Profile Picture:</label><br>
+        <input type="file" name="profile_pic">
+        <br><br>
+
+        <label>Enter Your Address:</label><br>
+        <textarea name="address" rows="4" cols="50"></textarea>
+        <br><br>
+
+        <input type="checkbox" name="terms" required>
+        I agree to the library membership terms.
+        <br><br>
+
+        <input type="submit" value="Register">
+
+    </form>
+
+</body>
+</html>
